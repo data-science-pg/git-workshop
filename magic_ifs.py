@@ -4,7 +4,7 @@ import random
 while True:
     question = input("Ask the magic 8 ball a question: (press enter to quit) ")
 
-    answers = random.randint(1, 8)
+    answers = random.randint(1, 10)
 
     if question == "":
         sys.exit()
@@ -35,3 +35,6 @@ while True:
 
     elif answers == 9:
         print("My answers are real")
+
+    elif answers = 10:
+        print("My asnwers are not of any importance")
